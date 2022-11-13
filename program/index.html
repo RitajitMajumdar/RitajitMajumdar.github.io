@@ -244,11 +244,10 @@
 algorithms under the effect of noise.
             </td>
         </tr>
-        <tr>
-            <td>
-                <b>Detailed description:</b>
-            </td>
-			<td>In the workshop you learned two QML algorithms, namely (i) Variational
+	</table>
+	
+	<h2>Detailed description</h2>	
+      In the workshop you learned two QML algorithms, namely (i) Variational
 algorithm, and (ii) Quantum SVM. Moreover, you learned different encoding techniques (e.g.,
 angle encoding, basis encoding) and different ansatz as well (e.g., linear entanglement, circular
 entanglement). The goal of this hackathon is to find the optimal train and test accuracy for a
@@ -258,63 +257,41 @@ as depolarization, measurement error etc., upto mock backends which mimics the e
 model of the hardware. In [1], the authors questioned the effectiveness of QML algorithms under
 the action of noise. They showed that finding the optimal parameter on an ideal simulator does
 not carry over properly to the noisy scenario. A question, then, remains on how to find the best
-test accuracy for QML algorithms under noise.</td>
-</tr>
-<tr>
+test accuracy for QML algorithms under noise.
 
-            <td>
-                
-            </td>
+<br>
 
-<td>In this hackathon, you will use a QML algorithm of your choice for classification using the well
+In this hackathon, you will use a QML algorithm of your choice for classification using the well
 studied iris dataset (<a href="https://archive.ics.uci.edu/ml/datasets/iris">https://archive.ics.uci.edu/ml/datasets/iris</a>). First, use a classical ML
 algorithm to find the test accuracy obtained in classical computers. Then use one or more QML
 algorithms of your choice to obtain the optimal test accuracy in an ideal noiseless scenario. The
-open challenge is to improve the test accuracy as far as possible in a noisy scenario.</td> 
-</tr>
+open challenge is to improve the test accuracy as far as possible in a noisy scenario.
 
-<tr>
+<br>
+<br>
 
-            <td>
-                
-            </td>
-
-<td>You can keep the following in mind, which you may consider to experiment on for this challenge:
+You can keep the following in mind, which you may consider to experiment on for this challenge:
 <ol type="1">
 <li>It is still not known which ansatz or which encoding is least susceptible to noise.</li>
 <li>It is still not known which type of noise (e.g., depolarizing, pauli, amplitude damping,
 coherent) affects the accuracy of the model most.</li>
 <li>Often the classical optimizer is selected randomly. However, it is always good to have an
 optimizer which converges the fastest.</li></ol>
-</td> 
-</tr>
-     
-<tr>
 
-            <td>
-                
-            </td>
 
-<td>The above three points are simply ideas to decide on some directions that you can take to
+<br>
+
+The above three points are simply ideas to decide on some directions that you can take to
 improve your project outcome. You are free to use one, or more, or none of these as long as
 they show the test accuracy of a QML algorithm on the iris dataset under noisy scenarios.
 Although not covered in the workshop, you may consider using some simple error mitigation
-methods to improve the performance of your QML algorithm.</td> 
-</tr>	
+methods to improve the performance of your QML algorithm.
 
-<tr>
-            <td>
-                <b>Summary:</b>
-            </td>
-			<td>Run a QML algorithm using one or more encoding, ansatz of your choice on the iris
-dataset to maximise the test accuracy of the classification problem.</td>
-</tr> 
-
-<tr>
-            <td>
-                <b>Marking:</b>
-            </td>
-			<td>Please keep the following in mind for the final presentation.
+<h2>Summary:</h2>
+Run a QML algorithm using one or more encoding, ansatz of your choice on the iris
+dataset to maximise the test accuracy of the classification problem.
+<h2>Marking:</h2>
+Please keep the following in mind for the final presentation.
 			<ol type="1">
   <li>Every team member must be present in the final presentation in order to receive a certificate of
 participation in the workshop and hackathon.</li>
@@ -323,18 +300,11 @@ participation in the workshop and hackathon.</li>
 code live during the presentation.</li>
 <li>There will be separate marks on project and presentation. It will be better if you can showcase
 your findings using proper graphs in your presentation.</li>
-</ol>  </td>
-</tr> 
+</ol> 
+                <h2>Reference:</h2>
+            [1] Characterizing the Reproducibility of Noisy Quantum Circuits. S. Dasgupta, T. Humble.
+<a href="https://www.mdpi.com/1099-4300/24/2/244" >https://www.mdpi.com/1099-4300/24/2/244</a> 
 
-<tr>
-            <td>
-                <b>Reference:</b>
-            </td>
-			<td>[1] Characterizing the Reproducibility of Noisy Quantum Circuits. S. Dasgupta, T. Humble.
-<a href="https://www.mdpi.com/1099-4300/24/2/244" >https://www.mdpi.com/1099-4300/24/2/244</a> </td>
-</tr> 
-    </table>
-    
 
     <footer>
         &copy; Qiskit FallFest 2022
